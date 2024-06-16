@@ -9,10 +9,10 @@ def app():
     st.title('Dia 04 - Construindo aplicações com Ken Jee - https://www.youtube.com/watch?v=Yk-unX4KnV4')
 
     # DATA PATHS
-    amv = 'data\\dia04\\Aggregated_Metrics_By_Video.csv'  # Aggregate Metrics by Video
-    amcss = 'data\\dia04\\Aggregated_Metrics_By_Country_And_Subscriber_Status.csv'  # Aggregate Metrics by Country and Subscriber Status
-    acf = 'data\\dia04\\All_Comments_Final.csv'  # All Comments Final
-    vpot = 'data\\dia04\\Video_Performance_Over_Time.csv'  # Video Performance Over Time
+    amv = 'Aggregated_Metrics_By_Video.csv'  # Aggregate Metrics by Video
+    amcss = 'Aggregated_Metrics_By_Country_And_Subscriber_Status.csv'  # Aggregate Metrics by Country and Subscriber Status
+    acf = 'All_Comments_Final.csv'  # All Comments Final
+    vpot = 'Video_Performance_Over_Time.csv'  # Video Performance Over Time
 
     # Define Functions
     def style_negative(v, props=''):
