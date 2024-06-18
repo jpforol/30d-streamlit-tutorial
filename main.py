@@ -1,7 +1,9 @@
 import streamlit as st
 from streamlit_option_menu import option_menu
 
-from scenes import dia01, dia02, dia03, dia04, dia05, dia06
+from scenes import dia01, dia02, dia03, dia04, dia05, dia06, dia07, dia08, dia09, dia10
+from scenes import dia11, dia12, dia13, dia14#, dia15#, dia16#, dia17#, dia18#, dia19#, dia20
+#from scenes import dia21#, dia22#, dia23#, dia24#, dia25#, dia26#, dia27#, dia28#, dia29#, dia30
 
 with st.sidebar:
     selected = option_menu("Main Menu", ["Dia 01", "Dia 02", "Dia 03", "Dia 04", "Dia 05",
