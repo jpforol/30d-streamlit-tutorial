@@ -8,5 +8,6 @@ def app():
     st.header('`streamlit_pandas_profiling`')
     df = pd.read_csv('titanic_dataset.csv')
     report = ProfileReport(df)
+    report.to_file('report.html')
     
     st_profile_report(report)
